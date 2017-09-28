@@ -8,7 +8,7 @@ var speed = 2000; //time in milliseconds
 var intervalTimeHandicap =10; //number of milliseconds to process the interval
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  var refs = document.querySelectorAll("a[href^='#'");
+  var refs = document.querySelectorAll("a[href^='#']");
 
 	for (var item = 0; item < refs.length; item++)
 	{
